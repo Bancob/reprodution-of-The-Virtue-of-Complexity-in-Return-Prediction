@@ -4,8 +4,8 @@ This project is part of DSA5205 (Data Science for Quantitative Finance).
 The goal is to reproduce and critically analyze the findings of Kelly, Malamud, and Zhou (2024), *Journal of Finance*.
 
 ## Structure
-- **A0333405N_Report.pdf**: Final report (including Tasks 1–3, discussion, and references).
-- **A0333405N_notebook.ipynb**: Jupyter notebook with complete implementation (simulation, Ridge, Lasso, cross-validation, figures, and outputs).
+- **Report.pdf**: Final report (including Tasks 1–3, discussion, and references).
+- **notebook.ipynb**: Jupyter notebook with complete implementation (simulation, Ridge, Lasso, cross-validation, figures, and outputs).
 - **outputs/**: Generated predictions for datasets A, B, and C, following naming convention `A0333405N_predictions_X.csv`.
 - **figures/**: Diagnostic plots such as SR vs z.
 
@@ -21,7 +21,7 @@ The goal is to reproduce and critically analyze the findings of Kelly, Malamud, 
 
 ## How to Run
 1. Install dependencies from `requirements.txt`.
-2. Open `A0333405N_notebook.ipynb` in Jupyter Lab/Notebook.
+2. Open `notebook.ipynb` in Jupyter Lab/Notebook.
 3. Run all cells to reproduce figures and generate predictions.
 4. Final outputs will be saved under `outputs/`.
 
